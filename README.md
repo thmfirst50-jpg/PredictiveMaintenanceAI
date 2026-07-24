@@ -78,7 +78,3 @@ Generates a random machine reading every 10 seconds, scores it, and POSTs the re
 
 - The webhook URLs in `main.py` and `machine_simulator.py` point to a demo n8n instance and will need to be replaced with your own.
 - `training_data.csv` and `machine_failure_model.pkl` are included so the notebook doesn't need to be rerun just to try the simulator/webhook flow.
-
-## Suggested repo name
-
-Renamed from `DataJam_MachineFailure` to **`PredictiveMaintenanceAI`** — it's more descriptive of what the project actually does (predictive maintenance + automated alerting) and reads better outside the hackathon context. Other solid options: `MachineFailurePredictor`, `SmartMaintenanceAlert`, `FailSafe-ML`.
